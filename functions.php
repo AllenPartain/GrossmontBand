@@ -18,6 +18,15 @@ function Nav() {
         </ul>
     </nav>';
 }
+function SideBar() {
+    echo '
+    <div class="social-sidebar">
+        <a href=""# target="_blank class="social-icon class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/ghs.music/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="# target="_blank class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="# target="_blank class="social-icon"><i class="fab fa-youtube"></i></a>
+    </div>';
+}
 ?>
 <style>
     /* Basic dropdown styling */

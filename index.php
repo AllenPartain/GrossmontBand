@@ -25,13 +25,13 @@
     </div>
     <div class="slideshow-container">
         <div class="mySlides fade">
-            <img src="photos.jpg/GHS Band & Color Guard '24 - '25!-All photos-58242451768.jpg" style="width:100%">
+            <img src="photos.jpg/GHS Band & Color Guard '24 - '25!-All photos-58242451768.jpg" style="width:100%; height: 50%;">
         </div>
         <div class="mySlides fade">
-            <img src="/photos.jpg/GHS Band & Color Guard '24 - '25!-All photos-59835591756.jpg" style="width:100%">
+            <img src="/photos.jpg/GHS Band & Color Guard '24 - '25!-All photos-59835591756.jpg" style="width:100%; height: 50%;">
         </div>
         <div class="mySlides fade">
-            <img src="/photos.jpg/GHS Band & Color Guard '24 - '25!-All photos-61722684192.jpg" style="width:100%">
+            <img src="/photos.jpg/GHS Band & Color Guard '24 - '25!-All photos-61722684192.jpg"style="width:100%; height: 50%;">
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -107,12 +107,7 @@
         </div>
     </div>
 
-    <div class="social-sidebar">
-        <a href="" class="social-icon"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/ghs.music/" class="social-icon"><i class="fab fa-instagram"></i></a>
-        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-    </div>
+    <?php SideBar(); ?>
 
     <footer>
         <div class="contact-info">

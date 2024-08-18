@@ -280,4 +280,90 @@ h2, h3 { /* Target all h2 and h3 elements */
     background-color: #ffebee;
     border: 1px solid #ffcdd2;
     margin-bottom: 20px;
-}
+
+    .instagram-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px; /* Adjusts the space between the posts */
+        padding: 20px;
+        background-color: #f9f9f9;
+        margin-top: 100px; /* Adds 100px space from the nav bar */
+    }
+
+    .instagram-post {
+        width: 45%; /* Adjust the width of each post */
+        max-width: 500px; /* Sets a max width for larger screens */
+        margin: 10px 0;
+        border: 2px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #fff;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .post-images {
+        position: relative;
+    }
+
+    .post-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .nav-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .nav-arrow.prev {
+        left: 10px;
+    }
+
+    .nav-arrow.next {
+        right: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

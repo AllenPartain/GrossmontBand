@@ -7,7 +7,7 @@
     <title>Grossmont High School Band</title>
    <link href="/style.css" rel="stylesheet" />
 </head>
-<body>
+
     <header>
         <img src="https://static.wixstatic.com/media/1a86e4_9c67898c2fbe43da97c32a89afa007fc~mv2_d_4743_4713_s_4_2.png/v1/fill/w_560,h_556,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RBR%20Crest%203.png" alt="Grossmont High School Logo" class="logo">
         <h1>Grossmont High School Band</h1>
@@ -32,8 +32,8 @@
             height: 600px;
         }
     </style>
-</head>
 <body>
+    
     <div class="calendar-container">
         <h1 >Upcoming Band Events</h1>
         <style>

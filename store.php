@@ -54,7 +54,6 @@
         <img src="https://static.wixstatic.com/media/1a86e4_9c67898c2fbe43da97c32a89afa007fc~mv2_d_4743_4713_s_4_2.png" alt="Grossmont High School Logo" class="logo">
         <h1>Grossmont High School Band</h1>
     </header>
-
     <?php echo Nav(); ?>
 
     <div class="iframe-container">

@@ -9,8 +9,6 @@
     <title>Grossmont High School Band</title>
     <link href="/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
-<body>
 
     <style>
         body {
@@ -159,24 +157,18 @@
                     <img src="https://coresos-phinf.pstatic.net/a/31bb64/c_c4hUd018svcbqox41ddhvby_i01zrs.jpg?type=s75" alt="Theresa">
                     <h3>Theresa</h3>
                 </div>
-                <div class="staff-card">
+
+                <!-- copy this to make a new staff card -->
+                <!-- <div class="staff-card">
                     <img src="path/to/image5.jpg" alt="Staff Member 5">
                     <h3>Staff Member 5</h3>
-                </div>
-                <div class="staff-card">
-                    <img src="path/to/image6.jpg" alt="Staff Member 6">
-                    <h3>Staff Member 6</h3>
-                </div>
+                </div> -->
+                
             </div>
         </div>
     </div>
 
-    <div class="social-sidebar">
-        <a href="" class="social-icon"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/ghs.music/" class="social-icon"><i class="fab fa-instagram"></i></a>
-        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-    </div>
+    <?php SideBar(); ?>
 
     <footer>
         <div class="contact-info">

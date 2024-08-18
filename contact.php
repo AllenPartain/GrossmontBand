@@ -161,12 +161,7 @@
         </div>
     </div>
 
-    <div class="social-sidebar">
-        <a href="" class="social-icon"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/ghs.music/" class="social-icon"><i class="fab fa-instagram"></i></a>
-        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-    </div>
+    <?php SideBar(); ?>
 
     <footer>
         <div class="contact-info">
