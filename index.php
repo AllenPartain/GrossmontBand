@@ -14,24 +14,31 @@
 <body>
     <header>
         <img src="https://static.wixstatic.com/media/1a86e4_9c67898c2fbe43da97c32a89afa007fc~mv2_d_4743_4713_s_4_2.png/v1/fill/w_560,h_556,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RBR%20Crest%203.png" alt="Grossmont High School Logo" class="logo">
-        <h1>Grossmont High School Band</h1>
     </header>
 
     <?php echo Nav(); ?>
 
     <div class="banner">
         <h1>We Are The Royal Blue Regiment</h1>
-        <h2>The Best Band In The Land Since 1970</h2>
+        <h2>The Best Band In The Land Since 1920</h2>
     </div>
     <div class="slideshow-container">
+        <style>
+         @media only screen and (max-width: 768px) {
+            .mySlides img {
+              height: 43.5%;
+            }
+          }
+        </style>
         <div class="mySlides fade">
-            <img src="photos.jpg/GHS Band & Color Guard '24 - '25!-All photos-58242451768.jpg" style="width:100%; height: 50%;">
+            <img src="photos.jpg/GHS Band & Color Guard '24 - '25!-All photos-58242451768.jpg" style="width:100%; height:52.2%;">
+
         </div>
         <div class="mySlides fade">
-            <img src="/photos.jpg/GHS Band & Color Guard '24 - '25!-All photos-59835591756.jpg" style="width:100%; height: 50%;">
+            <img src="/photos.jpg/GHS Band & Color Guard '24 - '25!-All photos-59835591756.jpg" style="width:100%">
         </div>
         <div class="mySlides fade">
-            <img src="/photos.jpg/GHS Band & Color Guard '24 - '25!-All photos-61722684192.jpg"style="width:100%; height: 50%;">
+            <img src="/photos.jpg/GHS Band & Color Guard '24 - '25!-All photos-61722684192.jpg" style="width:100%">
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -60,42 +67,82 @@
         <h2>Our Ensembles</h2>
         <div class="ensemble-grid">
             <div class="ensemble-item">
-                <i class="fas fa-drum"></i>
+                 <img src="photos.jpg/5434890-200.png" alt="Violin Icon" width="100" height="90">
                 <h3>Marching Band</h3>
                 <p>Our award-winning marching band performs at football games, competitions, and community events.</p>
             </div>
             <div class="ensemble-item">
-                <i class="fas fa-music"></i>
+
+
+                <img src="photos.jpg/2535504-200.png" alt="Violin Icon" width="100" height="90">
+                <h3>Symphonic Band</h3>
+                <p>Our symphonic band performs advanced wind band literature and participates in concert festivals.</p>     
+            </div>
+            <div class="ensemble-item">
+                <img src="            photos.jpg/3852605-200.png
+" alt="Violin Icon" width="100" height="90">
                 <h3>Concert Band</h3>
                 <p>Focusing on classical and contemporary wind band literature, our concert band performs several concerts throughout the year.</p>
             </div>
             <div class="ensemble-item">
-                <i class="fa fa-guitar"></i>
-                <h3>Jazz Band</h3>
-                <p>Exploring the rich traditions of jazz, our jazz band performs at school events and local jazz festivals.</p>
-                 <a href="https://www.instagram.com/ghs.jazzband/"><p>Instagram</p></a>
+                  <img src="photos.jpg/928-200.png" alt="Violin Icon" width="100" height="90">
+                <h3>Beginning Band</h3>
+                <p>Our beginning band introduces students to the fundamentals of playing wind instruments in an ensemble setting.</p>
             </div>
             <div class="ensemble-item">
-                <i class="fas fa-bullhorn"></i>
+                 <img src="photos.jpg/2603447-200.png" alt="Violin Icon" width="100" height="90">
+                <h3>Jazz Band</h3>
+                <p>Exploring the rich traditions of jazz, our jazz band performs at school events and local jazz festivals.</p>
+            </div>
+            <div class="ensemble-item">
+                <img src="photos.jpg/4185941-600.png" alt="Violin Icon" width="100" height="90">
                 <h3>Pep Band</h3>
                 <p>Bringing spirit and energy to school events, our pep band keeps the crowd entertained and engaged.</p>
             </div>
             <div class="ensemble-item">
-                <i class="fas fa-flag"></i>
+                <img src="photos.jpg/3961145-200.png" alt="Violin Icon" width="100" height="90">
+                <h3>Orchestra</h3>
+                <p>Our orchestra performs a diverse repertoire, ranging from classical symphonies to modern compositions.</p>
+            </div>
+            <div class="ensemble-item">
+                 <img src="photos.jpg/1526-600.png" alt="Violin Icon" width="100" height="90">
                 <h3>Color Guard</h3>
                 <p>Adding visual excitement to our performances, the color guard combines dance and equipment work.</p>
-                <a href=" https://www.instagram.com/grossmontcolorguard/"><p>Instagram</p></a>
             </div>
-        </div>
 
+        <style>
+            header {
+                text-align: center;
+                padding: 20px 0;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .logo {
+                max-width: 120px;
+                border-radius: 50%;
+                border: 3px solid #FFD700;
+                box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            }
+           </style>
+
+           
+           
+         
+
+
+
+            
+        </div>
+<hr>
         <div class="news-updates">
             <h2>News & Updates</h2>
             <p style="text-align: center;">Stay informed about the latest happenings in the Royal Blue Regiment:</p>
             <ul>
-                <li><a href="#">Uniform Fitting Day - July 27, 2024</a></li>
-                <li><a href="#">Band Camp Survival Guide - July 22 - August 3, 2024</a></li>
-                <li><a href="#">Fall Concert Announced - October 15, 2024</a></li>
-                <li><a href="#">Fundraiser Success - Thanks to Our Supporters!</a></li>
+                <li><p>Chocolate Bar fundraiser - September 9, 2024</p></li>
+                <li><p>Annual Military Inspection - October 23 - August 3, 2024</p></li>
+                <li><a href="https://csbc.compsuite.io/events/60481" target="_blank" rel="noopener noreferrer">Valhalla Band Tournament - October 26, 2024</a></li>
+                <li> <p>Halloween Rehearsal - October 30, 2024 </p></li>
             </ul>
         </div>
 

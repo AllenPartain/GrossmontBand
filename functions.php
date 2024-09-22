@@ -8,24 +8,32 @@ function Nav() {
                 <a href="#" class="dropbtn">About</a>
                 <div class="dropdown-content">
                     <a href="/Staff.php">Staff</a>
-                    <a href="/GIMA.php">GIMA</a>
+                    <a href="Leadership.php">Leadership</a>
                 </div>
             </li>
             <li><a href="/calander.php">Calendar</a></li>
-            <li><a href="/store.php">Shop</a></li>
+            <li><a href="/Fundraiser.php">Fundraiser</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="/GIMA.php">GIMA</a></li>
+             
         </ul>
     </nav>';
 }
-function SideBar() {
-    echo '
-    <div class="social-sidebar">
-        <a href=""# target="_blank class="social-icon class="social-icon"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/ghs.music/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="# target="_blank class="social-icon"><i class="fab fa-twitter"></i></a>
-        <a href="# target="_blank class="social-icon"><i class="fab fa-youtube"></i></a>
-    </div>';
+    function SideBar() {
+        // Check if the user is on a mobile device
+        $isMobile = preg_match('/(android|iphone|ipad|ipod|mobile)/i', $_SERVER['HTTP_USER_AGENT']);
+
+        // Only display the sidebar if the user is not on a mobile device
+        if (!$isMobile) {
+            echo '
+            <div class="social-sidebar">
+                <a href="#" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/ghs.music/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>';
+        }
 }
 ?>
 <style>

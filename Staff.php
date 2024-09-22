@@ -16,7 +16,7 @@
         <img src="https://static.wixstatic.com/media/1a86e4_9c67898c2fbe43da97c32a89afa007fc~mv2_d_4743_4713_s_4_2.png/v1/fill/w_560,h_556,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RBR%20Crest%203.png" alt="Grossmont High School Logo" class="logo">
         <h1>Grossmont High School Band</h1>
     </header>
-    <?php SideBar(); ?>
+
     <?php echo Nav(); ?>
     <style>
         body {
@@ -37,12 +37,12 @@
             margin: 0;
         }
         .content-container {
-            max-width: 800px;
-            margin: 20px auto;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
             background-color: white;
-            border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            padding: 10px;
+            top-padding: 10px;
         }
         h2 {
             color: #003366;
@@ -115,7 +115,7 @@
         <hr>
         <div class="container">
             <div class="staff-member">
-                <img src="https://coresos-phinf.pstatic.net/a/2jff31/h_00bUd018svc1ndpizzke28l_lb688y.jpg?type=s480_gif" alt="Tyler Deardon">
+                <img src="photos.jpg/IMG_20240907_175831_172.jpg" alt="Tyler Deardon">
                 <div class="staff-member-content">
                     <h2>Justin Kriebel - Marching Instructor</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

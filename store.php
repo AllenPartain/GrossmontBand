@@ -64,8 +64,13 @@
     <footer>
         <div class="contact-info">
             <p>&copy; 2024 Grossmont High School Band. All rights reserved.</p>
-            <p><a href="https://maps.app.goo.gl/vkTLYYJMbprMLBf99" target="_blank" style="color: white;">1100 Murray Dr, El Cajon, CA 92020</a> | Phone: (619) 668-6000</p>
-            <p>Email: <a href="mailto:band@grossmonthighschool.org" style="color: gold;">band@grossmonthighschool.org</a></p>
+            <p><a 
+
+                   href="https://maps.app.goo.gl/vkTLYYJMbprMLBf99" target="_blank" style="color: white;">1100 Murray Dr, El Cajon, CA 92020</a> | Phone: (619) 668-6000</p>
+
+            <p>Email:<a href="mailto:band@grossmonthighschool.org" style="color: gold;">band@grossmonthighschool.org</a></p>
+
+
         </div>
     </footer>
 </body>
